@@ -37,7 +37,7 @@ export default class NotLogginHeader extends Component{
           </div>
         </div>
         {/*未登录的热搜start*/}
-        <div className='mt20'>
+        <div className='mt10'>
           <Carouse/>
         </div>
         {/*  未登录的搜索框end*/}

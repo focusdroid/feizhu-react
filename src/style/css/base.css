@@ -12,6 +12,12 @@ a {
     text-decoration: none;
     -webkit-tap-highlight-color:rgba(0,0,0,0);
 }
-.mt20 {
+.mt10 {
     margin-top: 0.5rem;
+}
+.mt20 {
+     margin-top: 1rem;
+}
+.mt30 {
+    margin-top: 1.5rem;
 }
