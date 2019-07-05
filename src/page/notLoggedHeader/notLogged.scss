@@ -1,6 +1,6 @@
 @import '../../style/scss/common';
 .feizhu-home {
-  height: $height200;
+  height: $height9;
   background-color: $homgPageBackcolor;
   .feizhu {
     height: $height40;
@@ -15,8 +15,54 @@
         right: 0.6rem;
       }
     }
+    .feizhu-center {
+      img {
+        width: 47px;
+        height: 20px;
+        align-self: center;
+      }
+    }
   }
   // 未登录的搜索框start
-
+  .notlogged-search-href{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .search-href-icon {
+      position: absolute;
+      left: 0.9rem;
+      width: 0.7rem;
+      top: 0.4rem;
+    }
+    a {
+      width: 85%;
+      background-color: #fff;
+      display: flex;
+      padding-left: 1.3rem;
+      height: 1.4rem;
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+      line-height: 1.4rem;
+      font-size: 0.55rem;
+      }
+  }
+  .notlogged-hot {
+    font-size: 0.55rem;
+    color: #fff;
+    margin-top: 0.4rem;
+    ul {
+      display: flex;
+      li:first-child {
+        background-color: rgba(0,0,0,0);
+      }
+      li {
+        margin-left: 0.3rem;
+        background-color: #fdca33;
+        padding: 0.3rem 0.4rem;
+        border-radius: 2rem;
+      }
+    }
+  }
   // 未登录的搜索框end
 }

@@ -8,12 +8,18 @@ import Target from './components/footerBarRouter/target/Target' // 目的地
 import Trip from './components/footerBarRouter/trip/Trip' // 行程页面
 import Me from './components/footerBarRouter/me/Me' // 我的页面
 
+import NotLoggedSearch from './page/notLoggedSearch/NotLoggedSearch' // 未登录和登录时候首页的搜多页面
+
+import Carousels from './plugin/carousel/Carousel' // 轮播图案例
+
 export default class Routers extends Component{
   render() {
     return (
       <Router>
         <App>
           <Switch>
+            <Route path='/notLoggedSearch' component={NotLoggedSearch}></Route>
+            <Route path='/carousel' component={Carousels}></Route>
             {/* 这个位置些其他的页面*/}
             <Route render={() =>
               <Admin>

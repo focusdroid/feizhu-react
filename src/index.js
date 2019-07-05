@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 // import './index.css';
 // import App from './App';
 // import Home from './page/homePage/Home'
+import 'antd-mobile/dist/antd-mobile.css';
 import * as serviceWorker from './serviceWorker';
 
 import Router from './Router'

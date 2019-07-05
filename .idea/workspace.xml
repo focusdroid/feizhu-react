@@ -2,54 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de30691-e6e7-4d88-8fd3-647066646504" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/feizhu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/icon/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/icon/demo_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/icon/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/icon/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/icon/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/icon/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/icon/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/icon/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/icon/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/js/rem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footerBar/FooterBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footerBar/footerBar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footerBarRouter/find/Find.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footerBarRouter/homePage/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footerBarRouter/homePage/home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footerBarRouter/me/Me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footerBarRouter/target/Target.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footerBarRouter/trip/Trip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/notLoggedHeader/NotLogginHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/notLoggedHeader/notLogged.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/scss/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/notLoggedSearch/NotLoggedSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/notLoggedSearch/notLoggedSearch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plugin/carousel/Carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/notLoggedHeader/NotLogginHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/notLoggedHeader/NotLogginHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/notLoggedHeader/notLogged.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/notLoggedHeader/notLogged.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/scss/common.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/notLoggedHeader/NotLogginHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="-235">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -77,8 +39,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/notLoggedHeader/notLogged.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="-1038">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding>
+                <element signature="e#631#645#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/plugin/carousel/Carousel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="225">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -107,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/footerBar/footerBar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
+            <state relative-caret-position="375">
               <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
@@ -119,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/style/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="375">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -128,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/style/scss/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="175">
+              <caret line="7" column="8" selection-start-line="7" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -152,8 +141,16 @@
       <find>css</find>
       <find>sassRegex</find>
       <find>react-router</find>
-      <find>react-router-dom</find>
+      <find>search-result</find>
+      <find>search-result-ul</find>
+      <find>search-text</find>
+      <find>text-new</find>
       <find>notlogged-search-box</find>
+      <find>react-router-dom</find>
+      <find>imgHeight</find>
+      <find>data</find>
+      <find>feizhu</find>
+      <find>feizhu-home</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,7 +167,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/router.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Admin.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/footerBarRouter/find/Find.js" />
@@ -178,17 +174,21 @@
         <option value="$PROJECT_DIR$/src/components/footerBarRouter/target/Target.js" />
         <option value="$PROJECT_DIR$/src/components/footerBarRouter/trip/Trip.js" />
         <option value="$PROJECT_DIR$/src/components/footerBarRouter/me/Me.js" />
-        <option value="$PROJECT_DIR$/src/Router.js" />
         <option value="$PROJECT_DIR$/src/components/footerBar/FooterBar.js" />
-        <option value="$PROJECT_DIR$/src/page/notLoggedHeader/notLogged.scss" />
-        <option value="$PROJECT_DIR$/src/style/scss/common.scss" />
-        <option value="$PROJECT_DIR$/src/page/notLoggedHeader/NotLogginHeader.js" />
-        <option value="$PROJECT_DIR$/src/style/css/base.css" />
         <option value="$PROJECT_DIR$/src/components/footerBar/footerBar.scss" />
+        <option value="$PROJECT_DIR$/src/page/notLoggedSearch/NotLoggedSearch.js" />
+        <option value="$PROJECT_DIR$/src/page/notLoggedSearch/notLoggedSearch.scss" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/Router.js" />
+        <option value="$PROJECT_DIR$/src/page/notLoggedHeader/NotLogginHeader.js" />
+        <option value="$PROJECT_DIR$/src/style/scss/common.scss" />
+        <option value="$PROJECT_DIR$/src/page/notLoggedHeader/notLogged.scss" />
+        <option value="$PROJECT_DIR$/src/style/css/base.css" />
+        <option value="$PROJECT_DIR$/src/plugin/carousel/Carousel.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-49" />
     <option name="y" value="-18" />
     <option name="width" value="1582" />
@@ -234,13 +234,6 @@
               <item name="feizhu" type="b2602c69:ProjectViewProjectNode" />
               <item name="feizhu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="notLoggedHeader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feizhu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feizhu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -278,6 +271,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\work\React\feizhu\src\plugin" />
       <recent name="F:\work\React\feizhu\src\components\footerBarRouter" />
       <recent name="F:\work\React\feizhu\src\style\scss" />
       <recent name="F:\work\React\feizhu\src\view" />
@@ -305,12 +299,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562202593661</updated>
-      <workItem from="1562202595133" duration="14240000" />
+      <workItem from="1562202595133" duration="25281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14240000" />
+    <option name="totallyTimeSpent" value="25281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -318,12 +312,12 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17371202" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15257595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -395,17 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#157#206#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,44 +468,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Router.js">
+    <entry file="file://$PROJECT_DIR$/src/components/footerBar/footerBar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="375">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/notLoggedSearch/NotLoggedSearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/notLoggedHeader/notLogged.scss">
+    <entry file="file://$PROJECT_DIR$/src/page/notLoggedSearch/notLoggedSearch.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/notLoggedHeader/NotLogginHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/scss/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="487">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -536,10 +502,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/footerBar/footerBar.scss">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="125">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/scss/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="8" selection-start-line="7" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/notLoggedHeader/NotLogginHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/notLoggedHeader/notLogged.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1038">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="e#631#645#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin/carousel/Carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
