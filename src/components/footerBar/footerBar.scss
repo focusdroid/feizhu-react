@@ -1,0 +1,25 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    li {
+      text-align: center;
+      a {
+        text-decoration: none;
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
+      }
+      p {
+        font-size: 10px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+      }
+    }
+  }
+}
+.iconfont {
+  font-size: 18px;
+}

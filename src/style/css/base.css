@@ -1,0 +1,14 @@
+@import '../scss/common.scss';
+.disflex {
+    display: flex;
+}
+.jcsb {
+    justify-content: space-between;
+}
+.text-center {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}

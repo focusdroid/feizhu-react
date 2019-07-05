@@ -1,0 +1,22 @@
+@import '../../style/scss/common';
+.feizhu-home {
+  height: $height200;
+  background-color: $homgPageBackcolor;
+  .feizhu {
+    height: $height40;
+    background-color: $homePageHeader;
+    line-height: $height40;
+    .feizhu-logged-icon {
+      position: relative;
+      img {
+        width: 1.3rem;
+        margin-top: 0.35rem;
+        position: absolute;
+        right: 0.6rem;
+      }
+    }
+  }
+  // 未登录的搜索框start
+
+  // 未登录的搜索框end
+}

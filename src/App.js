@@ -1,8 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Fragment } from 'react';
 
-function App() {
+export default class App extends Component {
+  render(){
+    return(<Fragment>
+      { this.props.children }
+    </Fragment>);
+  }
+}
+
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -23,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
