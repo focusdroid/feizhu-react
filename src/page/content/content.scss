@@ -1,0 +1,14 @@
+.content {
+  .content-ul {
+    justify-content: space-around;
+    padding: 0 0.4rem;
+    li {
+      text-align: center;
+      font-size: 0.55rem;
+      img {
+        display: flex;
+        width: 2.8rem;
+      }
+    }
+  }
+}
