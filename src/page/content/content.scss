@@ -12,3 +12,76 @@
     }
   }
 }
+.travel {
+  .travel-parent-ul {
+      margin-top: 0.5rem;
+    .travel-ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      li {
+        a {
+          color: rgb(51, 51, 51);
+        }
+        width: 3.7rem;
+        height: 2.6rem;
+        margin-left: 0.04rem;
+        background-color: #fff;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.04rem;
+        p:first-child {
+          font-size: 0.6rem
+        }
+        p:last-child {
+          font-size: 0.5rem;
+          margin-top: 0.34rem;
+          color: rgb(102, 102, 102);
+        }
+      }
+    }
+  }
+  .line {
+    background-color: #ffc900;
+    width: 3rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border-radius: 5rem;
+    color: #554c2a;
+  }
+}
+// 每日签到start
+.sign-parent {
+  background-color: #fff;
+  width: 93%;
+  margin: 0 auto;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  .sign {
+    justify-content: space-around;
+    margin-top: 0.04rem;
+    height: 2rem;
+    align-items: center;
+    .sign-img-one {
+      width: 3.6rem;
+      height: 1rem;
+    }
+    .sign-img-two {
+      width: 2.4rem;
+      height: 1rem;
+    }
+    p {
+      line-height: 1rem;
+      margin-left: 0.2rem;
+    }
+    .vertical {
+      width: 0.05rem;
+      height: 1rem;
+      background-color: #f7f7f7;
+    }
+  }
+}
+
+// 每日签到end

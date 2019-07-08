@@ -5,10 +5,12 @@
   ul {
     display: flex;
     justify-content: space-around;
-    background-color: yellow;
+    background-color: #fff;
+    padding-top: 0.1rem;
     li {
       text-align: center;
       a {
+        color: #2a2727;
         text-decoration: none;
         -webkit-tap-highlight-color:rgba(0,0,0,0);
       }
