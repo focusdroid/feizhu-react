@@ -6,6 +6,9 @@
     height: $height40;
     background-color: $homePageHeader;
     line-height: $height40;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
     .feizhu-logged-icon {
       position: relative;
       img {
@@ -24,6 +27,9 @@
     }
   }
   // 未登录的搜索框start
+  .notlogged-search {
+    padding-top: 2rem;
+  }
   .notlogged-search-href{
     display: flex;
     justify-content: center;

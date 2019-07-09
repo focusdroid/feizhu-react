@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react'
 import './content.scss'
 import '../../style/css/base.css'
 import { Link } from 'react-router-dom'
+import Tourist from '../../view/mianBranch/tourist/Tourist' // 当地旅游季，在view/mainBranch/tourist/Tourist.js中
 
 export default class Content extends Component{
   render(){
@@ -116,6 +117,63 @@ export default class Content extends Component{
           </div>
         </div>
         {/*每日签到end*/}
+        {/*新发现start*/}
+        <div className='new-find'>
+          <div className='new-posit'>
+            <Link to='/tips' className='new-left new-back'>
+              <div className='new-backg-vague'>
+                <div className='new-left-text'>
+                  <p className='people-text'>懒猫旅行 清迈丛林 飞跃一日游 飞跃天际 skyline 泰国清迈...</p>
+                  <p className='people-num'>10127<span>人说好</span></p>
+                </div>
+              </div>
+            </Link>
+            <div className='new-right'>
+              <Link to='/tips'>
+                <div className='new-back new-r-top'>
+                  <div className='img1'>
+                    <img src="https://gw.alicdn.com/tfs/TB1f5o4wDqWBKNjSZFxXXcpLpXa-107-35.png_110x10000.jpg_.webp" alt=""/>
+                  </div>
+                  <div className='disflex aircraft'>
+                    <div className='disflex aircraft-chirder'>
+                      <p>成都</p>
+                      <img src="https://gw.alicdn.com/tfs/TB1bPqkwCMmBKNjSZTEXXasKpXa-27-26.png_110x10000.jpg_.webp" alt=""/>
+                      <p>广州</p>
+                    </div>
+                    <div className='aircraft-text'>单程</div>
+                  </div>
+                  <div className='discount-money'>
+                    <p className='discount-p'>
+                      <span className='discount-span-one'>￥</span>
+                      595起
+                      <span className='discount-span-two'>3.5折</span></p>
+                  </div>
+                </div>
+              </Link>
+              <Link to='/'>
+                <div className='new-back new-r-bottom'>
+                  <div className='promotion-text'>万家酒店抄底大促销</div>
+                  <div className='promotion-money'>超低价<span className='promotion-font'>优选商家</span></div>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/*新发现end*/}
+        {/*  当地旅游季start*/}
+        <Tourist/>
+        {/*  当地旅游季end*/}
+      <p>afbefbafbafbabaef</p>
+      <p>afbefbafbafbabaef</p>
+      <p>afbefbafbafbabaef</p>
+      <p>afbefbafbafbabaef</p>
+      <p>afbefbafbafbabaef</p>
+      <p>afbefbafbafbabaef</p>
+      <p>afbefbafbafbabaef</p>
+      <p>afbefbafbafbabaef</p>
+      <p>afbefbafbafbabaef</p>
+      <p>afbefbafbafbabaef</p>
+      <p>afbefbafbafbabaef</p>
       </Fragment>
     );
   }

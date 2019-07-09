@@ -1,0 +1,39 @@
+@import '../../../style/scss/common.scss';
+.tourist {
+  margin-top: $height20;
+  .tourist-header {
+    width: 93%;
+    margin: 0 auto;
+    .tourist-title{
+      font-size: 1rem;
+      font-weight: 700;
+      color: #444444;
+    }
+    .tourrist-address{
+      display: flex;
+      .tour-add-text {
+        line-height: 0.7rem;
+      }
+      .tourist-img {
+        width: 0.7rem;
+      }
+    }
+  }
+  .tourisr-back {
+    width: 100%;
+    ul {
+      display: flex;
+      li {
+        width: 5rem;
+        height: 5rem;
+        background-color: #fff888;
+        margin-left: 0.5rem;
+        .tourisr-back-img {
+          background-image: url('https://gw.alicdn.com/imgextra/i2/2882533541/TB2IsADrcUrBKNjSZPxXXX00pXa_!!2882533541-0-wefliggy.jpg_110x10000Q75.jpg_.webp');
+        }
+      }
+    }
+
+
+  }
+}

@@ -1,3 +1,4 @@
+@import '../../style/scss/common';
 .content {
   .content-ul {
     justify-content: space-around;
@@ -45,7 +46,7 @@
   }
   .line {
     background-color: #ffc900;
-    width: 3rem;
+    width: 2.5rem;
     height: 0.8rem;
     line-height: 0.8rem;
     border-radius: 5rem;
@@ -85,3 +86,133 @@
 }
 
 // 每日签到end
+// 新发现start
+.new-find {
+  width: 93%;
+  margin: 0 auto;
+ .new-posit {
+   display: flex;
+   margin-top: 1rem;
+   .new-left{
+     width: 50%;
+     height: 10rem;
+     background-image: url('https://gw.alicdn.com/tps/i3/1112797297/O1CN01sn97un23m4aCHDPnJ_!!1112797297.jpg_220x10000Q75.jpg_.webp');
+     .new-backg-vague {
+       width: 100%;
+       height: 10rem;
+       background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+     }
+     .new-left-text {
+       color: #ffffff;
+       font-weight: 700;
+       font-size: $fontSize6;
+       padding: 0 0.5rem;
+       .people-text {
+         padding-top: 1rem;
+         line-height: 0.8rem;
+       }
+       .people-num {
+         width: 45%;
+         padding: 0.2rem 0.2rem;
+         background-color: #ffd700;
+         border-radius: 0.2rem;
+         color: #43402f;
+         font-size: 0.5rem;
+         margin-top: 0.3rem;
+         span {
+           font-size: 0.35rem;
+         }
+       }
+     }
+   }
+   .new-back {
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     -webkit-background-size: cover;
+   }
+   .new-right{
+     width: 50%;
+     .new-r-top {
+       height: 5rem;
+       background-image: url('https://gw.alicdn.com/tfs/TB1AdRjhbPpK1RjSZFFXXa5PpXa-527-309.png_220x10000.jpg_.webp');
+       .img1 {
+         img {
+           display: flex;
+           width: 2.5rem;
+           padding-top: 0.5rem;
+           padding-left: 0.5rem;
+         }
+       }
+       .aircraft {
+         margin-top: 0.5rem;
+         margin-left: 0.5rem;
+         .aircraft-chirder {
+            p {
+              color: #3b3b3b;
+              font-size: 0.6rem;
+              font-weight: 600;
+            }
+           img {
+             display: flex;
+             width: 0.6rem;
+             margin: 0 0.2rem;
+           }
+         }
+         .aircraft-text {
+           font-size: 0.35rem;
+           margin-left: 0.2rem;
+         }
+       }
+       .discount-money {
+         .discount-p {
+           background-color: #ff5000;
+           width: 45%;
+           color: #ffffff;
+           font-size: $fontSize6;
+           font-weight: 600;
+           padding: 0.15rem 0.1rem;
+           -webkit-border-radius: 0.2rem;
+           -moz-border-radius: 0.2rem;
+           border-radius: 0.2rem;
+           margin-left: 0.5rem;
+           margin-top: 0.5rem;
+           .discount-span-one{
+             font-size: 0.2rem;
+           }
+           .discount-span-two{
+             font-size: 0.2rem;
+             margin-left: 0.1rem;
+           }
+         }
+       }
+     }
+     .new-r-bottom {
+       height: 5rem;
+       background-image: url('https://gw.alicdn.com/tfs/TB1_C6aom_I8KJjy0FoXXaFnVXa-198-198.png_220x10000.jpg_.webp');
+       color: #fff;
+       .promotion-text {
+         padding: 0.5rem 0 0.3rem 0.5rem;
+         font-size: $fontSize6;
+         font-weight: 600;
+       }
+       .promotion-money {
+         font-size: $fontSize6;
+         font-weight: 600;
+         margin-left: 0.5rem;
+         background-color: #ff5000;
+         width: 50%;
+         padding: 0.2rem 0.3rem;
+         -webkit-border-radius: 0.2rem;
+         -moz-border-radius: 0.2rem;
+         border-radius: 0.2rem;
+         .promotion-font {
+           font-size: 0.3rem;
+           margin-left: 0.2rem;
+         }
+       }
+     }
+   }
+ }
+}
+// 新发现end
