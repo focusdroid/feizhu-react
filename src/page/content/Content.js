@@ -3,6 +3,7 @@ import './content.scss'
 import '../../style/css/base.css'
 import { Link } from 'react-router-dom'
 import Tourist from '../../view/mianBranch/tourist/Tourist' // 当地旅游季，在view/mainBranch/tourist/Tourist.js中
+import TravelTheme from '../../view/mianBranch/travelTheme/TravelTheme' // 当地旅游季，在view/mainBranch/tourist/Tourist.js中
 import { connect } from 'react-redux'
 
 class Content extends Component{
@@ -167,9 +168,12 @@ class Content extends Component{
         {/*新发现end*/}
         {/*  当地旅游季start*/}
         <Tourist test={this.props.test}/>
-        {this.props.test.name}
+        {/*{this.props.test.name}*/}
         {/*  当地旅游季end*/}
-      <p>afbefbafbafbabaef</p>
+      {/*  旅游主题start*/}
+        <TravelTheme/>
+      {/*  旅游主题end*/}
+      <p style={{marginTop: 100}}>afbefbafbafbabaef</p>
       <p>afbefbafbafbabaef</p>
       <p>afbefbafbafbabaef</p>
       <p>afbefbafbafbabaef</p>

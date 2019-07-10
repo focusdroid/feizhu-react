@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2de30691-e6e7-4d88-8fd3-647066646504" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
+    <list default="true" id="2de30691-e6e7-4d88-8fd3-647066646504" name="Default Changelist" comment="当季旅游季模块更新完毕">
+      <change afterPath="$PROJECT_DIR$/src/view/mianBranch/travelTheme/TravelTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/mianBranch/travelTheme/travelTheme.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/content/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/content/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/mianBranch/tourist/Tourist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/mianBranch/tourist/Tourist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/mianBranch/tourist/tourist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/mianBranch/tourist/tourist.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/scss/common.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/content/Content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="167" column="26" lean-forward="true" selection-start-line="167" selection-start-column="26" selection-end-line="167" selection-end-column="26" />
+            <state relative-caret-position="450">
+              <caret line="175" column="31" selection-start-line="175" selection-start-column="31" selection-end-line="175" selection-end-column="31" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
                 <element signature="e#306#1494#0" />
@@ -41,50 +40,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/index.js">
+        <entry file="file://$PROJECT_DIR$/src/view/mianBranch/travelTheme/TravelTheme.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding>
-                <element signature="e#45#228#0" />
-                <element signature="e#234#291#0" />
-                <element signature="e#405#428#0" />
-                <element signature="e#576#721#0" />
-                <element signature="e#729#786#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/mianBranch/tourist/Tourist.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/mianBranch/tourist/tourist.scss">
+        <entry file="file://$PROJECT_DIR$/src/view/mianBranch/travelTheme/travelTheme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="79">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -92,20 +60,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/style/scss/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="9" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="225">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/content/content.scss">
+        <entry file="file://$PROJECT_DIR$/src/style/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2675">
-              <caret line="107" column="29" lean-forward="true" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="29" />
-              <folding>
-                <element signature="e#3146#3166#0" />
-              </folding>
+            <state relative-caret-position="121">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -117,8 +82,8 @@
       <list>
         <option value="Less File" />
         <option value="CSS File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -165,12 +130,10 @@
         <option value="$PROJECT_DIR$/src/page/notLoggedSearch/NotLoggedSearch.js" />
         <option value="$PROJECT_DIR$/src/page/notLoggedSearch/notLoggedSearch.scss" />
         <option value="$PROJECT_DIR$/src/Router.js" />
-        <option value="$PROJECT_DIR$/src/style/scss/common.scss" />
         <option value="$PROJECT_DIR$/src/plugin/carousel/Carousel.js" />
         <option value="$PROJECT_DIR$/src/page/content/Contennt.js" />
         <option value="$PROJECT_DIR$/src/components/footerBarRouter/homePage/Home.js" />
         <option value="$PROJECT_DIR$/src/page/notLoggedHeader/NotLogginHeader.js" />
-        <option value="$PROJECT_DIR$/src/style/css/base.css" />
         <option value="$PROJECT_DIR$/src/components/footerBar/footerBar.scss" />
         <option value="$PROJECT_DIR$/public/static/css/reset.css" />
         <option value="$PROJECT_DIR$/src/page/notLoggedHeader/notLogged.scss" />
@@ -180,9 +143,13 @@
         <option value="$PROJECT_DIR$/src/store/index.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/store/reducer.js" />
-        <option value="$PROJECT_DIR$/src/page/content/Content.js" />
         <option value="$PROJECT_DIR$/src/view/mianBranch/tourist/Tourist.js" />
         <option value="$PROJECT_DIR$/src/view/mianBranch/tourist/tourist.scss" />
+        <option value="$PROJECT_DIR$/src/page/content/Content.js" />
+        <option value="$PROJECT_DIR$/src/style/scss/common.scss" />
+        <option value="$PROJECT_DIR$/src/style/css/base.css" />
+        <option value="$PROJECT_DIR$/src/view/mianBranch/travelTheme/TravelTheme.js" />
+        <option value="$PROJECT_DIR$/src/view/mianBranch/travelTheme/travelTheme.scss" />
       </list>
     </option>
   </component>
@@ -219,6 +186,40 @@
               <item name="feizhu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feizhu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feizhu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feizhu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feizhu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feizhu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feizhu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feizhu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feizhu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="mianBranch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feizhu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feizhu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="mianBranch" type="462c0819:PsiDirectoryNode" />
+              <item name="travelTheme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,7 +270,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562202593661</updated>
-      <workItem from="1562202595133" duration="52445000" />
+      <workItem from="1562202595133" duration="58401000" />
     </task>
     <task id="LOCAL-00001" summary="修改小部分样式问题">
       <created>1562314142675</created>
@@ -285,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562670014385</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="当季旅游季模块更新完毕">
+      <created>1562724396879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562724396880</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52445000" />
+    <option name="totallyTimeSpent" value="58401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -297,7 +305,7 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" sideWeight="0.5013405" side_tool="true" weight="0.14075068" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.12466488" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.20107238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -341,7 +349,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改小部分样式问题" />
     <MESSAGE value="更新部分页面结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新部分页面结构" />
+    <MESSAGE value="当季旅游季模块更新完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="当季旅游季模块更新完毕" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/env.js">
@@ -522,23 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -554,13 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/scss/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="9" selection-start-line="4" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -584,13 +569,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/mianBranch/tourist/tourist.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/mianBranch/tourist/Tourist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -608,10 +607,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/content/Content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="167" column="26" lean-forward="true" selection-start-line="167" selection-start-column="26" selection-end-line="167" selection-end-column="26" />
+        <state relative-caret-position="450">
+          <caret line="175" column="31" selection-start-line="175" selection-start-column="31" selection-end-line="175" selection-end-column="31" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
             <element signature="e#306#1494#0" />
@@ -622,20 +631,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/mianBranch/tourist/Tourist.js">
+    <entry file="file://$PROJECT_DIR$/src/style/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="121">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/mianBranch/tourist/tourist.scss">
+    <entry file="file://$PROJECT_DIR$/src/style/scss/common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="225">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/mianBranch/travelTheme/TravelTheme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/mianBranch/travelTheme/travelTheme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>

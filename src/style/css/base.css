@@ -21,3 +21,17 @@ a {
 .mt30 {
     margin-top: 1.5rem;
 }
+.heig5 {
+    height: 6.6rem;
+}
+.img-posit {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.w63 {
+    width: 63%;
+}
+.w37 {
+    width: 37%;
+}

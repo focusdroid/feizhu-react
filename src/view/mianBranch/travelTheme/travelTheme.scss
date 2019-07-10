@@ -1,0 +1,77 @@
+@import '../../../style/scss/common.scss';
+.traveltheme {
+  width: 93%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  .traveltheme-title{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #444444;
+  }
+  .traveltheme-desc {
+    display: flex;
+    align-items: center;
+    color: rgb(51, 51, 51);
+  }
+}
+.traveltheme-img {
+  width: 93%;
+  margin: 0 auto;
+  .p-title {
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding-top: 5rem;
+    padding-left: 0.4rem;
+
+  }
+  .img-back-shad {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+  }
+  .p-content {
+    font-size: 0.5rem;
+    margin-top: 0.2rem;
+    padding-left: 0.4rem;
+  }
+  .traveltheme-img-top {
+    color: #ffffff;
+    a {
+      color: #ffffff;
+    }
+    .top-first {
+      border-radius: 0.3rem;
+      background-image: url("https://gw.alicdn.com/tips/i3/1705704968/TB2og.rgnXYBeNkHFrdXXciuVXa_!!1705704968.jpg_570x10000Q75.jpg_.webp");
+    }
+    .top-secode {
+      margin-left: 0.5rem;
+      border-radius: 0.3rem;
+      background-image: url("https://gw.alicdn.com/tips/i8/TB1S7e0xW6qK1RjSZFm.dd0PFXa_045432.jpg_230x10000Q75.jpg_.webp");
+    }
+  }
+  .traveltheme-img-bottom {
+    margin-top: 0.5rem;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        width: 30%;
+        a {
+          color: #ffffff;
+        }
+        .img-b-first {
+          border-radius: 0.3rem;
+          background-image: url("https://gw.alicdn.com/tips/i4/3893815672/O1CN01ElFGLQ1rlp0hSzKUK_!!3893815672.jpg_230x10000Q75.jpg_.webp");
+        }
+        .img-b-secode {
+          border-radius: 0.3rem;
+          background-image: url("https://gw.alicdn.com/tips/i2/1817590883/O1CN011IOSCP0e5U3gg28_!!1817590883.jpg_230x10000Q75.jpg_.webp");
+        }
+        .img-b-three {
+          border-radius: 0.3rem;
+          background-image: url("https://gw.alicdn.com/tips/i2/3299395192/O1CN01KliOwU1oDyr7MlvQ3_!!3299395192.jpg_230x10000Q75.jpg_.webp");
+        }
+      }
+    }
+  }
+}
