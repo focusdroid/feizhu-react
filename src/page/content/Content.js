@@ -3,9 +3,14 @@ import './content.scss'
 import '../../style/css/base.css'
 import { Link } from 'react-router-dom'
 import Tourist from '../../view/mianBranch/tourist/Tourist' // 当地旅游季，在view/mainBranch/tourist/Tourist.js中
+import { connect } from 'react-redux'
 
-export default class Content extends Component{
+class Content extends Component{
+  constructor (props) {
+    super(props)
+  }
   render(){
+    // const { travelImgList, test } = this.props
     return (
       <Fragment>
         <div className='mt30 content'>
@@ -161,7 +166,8 @@ export default class Content extends Component{
         </div>
         {/*新发现end*/}
         {/*  当地旅游季start*/}
-        <Tourist/>
+        <Tourist test={this.props.test}/>
+        {this.props.test.name}
         {/*  当地旅游季end*/}
       <p>afbefbafbafbabaef</p>
       <p>afbefbafbafbabaef</p>
@@ -178,3 +184,20 @@ export default class Content extends Component{
     );
   }
 }
+
+const mapStateToProps = (state) => {
+  return{
+    travelImgList: state.travelImgList,
+    test: state.test
+  }
+}
+
+// 方法执行区间
+const mapDispatchToProps = (dispatch) => {
+  return {
+
+  }
+}
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(Content)

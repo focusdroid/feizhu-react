@@ -21,15 +21,44 @@
   }
   .tourisr-back {
     width: 100%;
+    overflow: scroll;
+    flex-direction: row;
+    display: flex;
+    margin-top: 0.5rem;
     ul {
       display: flex;
       li {
         width: 5rem;
         height: 5rem;
-        background-color: #fff888;
-        margin-left: 0.5rem;
+        margin-left: 0.3rem;
+        .tourisr-back-base {
+          height: 5rem;
+          border-radius: 0.3rem;
+          background-position: center center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          p {
+            font-size: 1rem;
+            color: #ffffff;
+            font-weight: 600;
+            padding-top: 3.4rem;
+            margin-left: 0.6rem;
+          }
+        }
         .tourisr-back-img {
           background-image: url('https://gw.alicdn.com/imgextra/i2/2882533541/TB2IsADrcUrBKNjSZPxXXX00pXa_!!2882533541-0-wefliggy.jpg_110x10000Q75.jpg_.webp');
+        }
+        .tourisr-back-img2{
+          background-image: url("https://gw.alicdn.com/imgextra/i4/669272/TB2ZzvXrVXXXXadXXXXXXXXXXXX_!!0-travel.jpg_110x10000Q75.jpg_.webp");
+        }
+        .tourisr-back-img3 {
+          background-image: url("https://gw.alicdn.com/imgextra/i1/669272/TB2mR7YspXXXXcJXpXXXXXXXXXX_!!0-travel.jpg_110x10000Q75.jpg_.webp");
+        }
+        .tourisr-back-img4 {
+          background-image: url("https://gw.alicdn.com/tps/TB1EQxUOVXXXXX6XFXXXXXXXXXX-800-800.jpg_110x10000Q75.jpg_.webp");
+        }
+        .tourisr-back-img5 {
+          background-image: url("https://gw.alicdn.com/tfs/TB17l52RFXXXXchXpXXXXXXXXXX-750-750.png_110x10000.jpg_.webp");
         }
       }
     }
