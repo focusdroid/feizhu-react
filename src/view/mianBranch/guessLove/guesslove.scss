@@ -1,0 +1,86 @@
+@import '../../../style/scss/common.scss';
+
+.guesslove {
+  width: 93%;
+  margin: 0 auto;
+  .guess-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    .guess-main-title{
+      font-size: 1rem;
+      font-weight: 700;
+      color: #444444;
+    }
+    .guess-main-text {
+      display: flex;
+      align-items: center;
+      color: #333333;
+    }
+  }
+  .guess-love-child {
+    .guess-love-child-ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      li {
+        a {
+          color: rgb(51, 51, 51);
+        }
+        width: 47%;
+        background-color: #fff;
+        padding-bottom: 0.4rem;
+        margin-top: 0.5rem;
+        border-radius: 0.3rem;
+        .gl-img {
+          width: 100%;
+          height: 7.5rem;
+          border-top-left-radius: 0.3rem;
+          border-top-right-radius: 0.3rem;
+        }
+        .gress-title {
+          margin-top: 0.5rem;
+          margin-bottom: 0.25rem;
+          color: rgb(119, 177, 213);
+          font-size: 0.5rem;
+          font-weight: 600;
+          padding: 0 0.3rem;
+        }
+        .gress-detail {
+          margin-bottom: 0.5rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          line-clamp: 2;
+          height: 1.4rem;
+          line-height: 0.75rem;
+          -webkit-line-clamp: 2;
+          font-size: 0.54rem;
+          font-weight: 600;
+          padding: 0 0.3rem;
+        }
+        .guess-money {
+          padding: 0 0.3rem;
+          .guess-span-one {
+            color: rgb(255, 80, 0);
+            font-size: 0.7rem;
+            i {
+              font-size: 0.5rem;
+            }
+          }
+          .guess-span-two {
+            font-size: 0.5rem;
+            margin: 0 0.2rem;
+          }
+          .guess-span-three {
+            font-size: 0.3rem;
+            img {
+              width: 0.8rem;
+              margin-left: 0.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

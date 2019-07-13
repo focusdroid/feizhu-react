@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export default class Tourist extends Component{
   render(){
-    const { test } = this.props
+    // const { test } = this.props
     return(
       <div className='tourist'>
         <header>

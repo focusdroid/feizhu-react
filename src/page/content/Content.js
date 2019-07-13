@@ -4,14 +4,12 @@ import '../../style/css/base.css'
 import { Link } from 'react-router-dom'
 import Tourist from '../../view/mianBranch/tourist/Tourist' // 当地旅游季，在view/mainBranch/tourist/Tourist.js中
 import TravelTheme from '../../view/mianBranch/travelTheme/TravelTheme' // 当地旅游季，在view/mainBranch/tourist/Tourist.js中
+import GuessLove from '../../view/mianBranch/guessLove/GuessLove' // 当地旅游季，在view/mainBranch/tourist/Tourist.js中
 import { connect } from 'react-redux'
 
 class Content extends Component{
-  constructor (props) {
-    super(props)
-  }
   render(){
-    // const { travelImgList, test } = this.props
+    const { GuessLoveList } = this.props
     return (
       <Fragment>
         <div className='mt30 content'>
@@ -173,17 +171,10 @@ class Content extends Component{
       {/*  旅游主题start*/}
         <TravelTheme/>
       {/*  旅游主题end*/}
-      <p style={{marginTop: 100}}>afbefbafbafbabaef</p>
-      <p>afbefbafbafbabaef</p>
-      <p>afbefbafbafbabaef</p>
-      <p>afbefbafbafbabaef</p>
-      <p>afbefbafbafbabaef</p>
-      <p>afbefbafbafbabaef</p>
-      <p>afbefbafbafbabaef</p>
-      <p>afbefbafbafbabaef</p>
-      <p>afbefbafbafbabaef</p>
-      <p>afbefbafbafbabaef</p>
-      <p>afbefbafbafbabaef</p>
+      {/* 猜你喜欢start*/}
+        <GuessLove GuessLoveList={GuessLoveList}/>
+      {/* 猜你喜欢end*/}
+      <p style={{marginBottom: 40,marginTop: 30, textAlign: 'center'}}>我也是有底线的</p>
       </Fragment>
     );
   }
@@ -192,7 +183,8 @@ class Content extends Component{
 const mapStateToProps = (state) => {
   return{
     travelImgList: state.travelImgList,
-    test: state.test
+    test: state.test,
+    GuessLoveList: state.GuessLoveList
   }
 }
 

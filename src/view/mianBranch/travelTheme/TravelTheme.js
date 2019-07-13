@@ -15,16 +15,18 @@ function TravelTheme () {
           <div className='traveltheme-img-top disflex'>
             <Link to='/' className='w63'>
               <div className='top-first heig5 img-posit'>
-                <div className='img-back-shad'>
+                <div className='img-back-shad heig5 img-br3'>
                   <p className='p-title'>带娃游乐园</p>
                   <p className='p-content'>欢乐亲子时光</p>
                 </div>
               </div>
             </Link>
-            <Link to='/' className='w37 img-back-shad'>
+            <Link to='/' className='w37'>
               <div className='top-secode heig5 img-posit'>
-                <p className='p-title'>带娃游全国</p>
-                <p className='p-content'>带娃点亮地图</p>
+                <div className='img-back-shad heig5 img-br3'>
+                  <p className='p-title'>带娃游全国</p>
+                  <p className='p-content'>带娃点亮地图</p>
+                </div>
               </div>
             </Link>
           </div>
@@ -33,24 +35,30 @@ function TravelTheme () {
               <li>
                 <Link to='/'>
                   <div className='heig5 img-b-first img-posit'>
-                    <p className='p-title'>主题乐园控</p>
-                    <p className='p-content'>刷遍全国乐园</p>
+                    <div className='img-back-shad img-br3 heig5'>
+                      <p className='p-title'>主题乐园控</p>
+                      <p className='p-content'>刷遍全国乐园</p>
+                    </div>
                   </div>
                 </Link>
               </li>
               <li>
                 <Link to='/'>
                   <div className='heig5 img-b-secode img-posit'>
-                    <p className='p-title'>江浙沪包游</p>
-                    <p className='p-content'>江南水乡荡悠悠</p>
+                    <div className='img-back-shad img-br3 heig5'>
+                      <p className='p-title'>江浙沪包游</p>
+                      <p className='p-content'>江南水乡荡悠悠</p>
+                    </div>
                   </div>
                 </Link>
               </li>
               <li>
                 <Link to='/'>
                   <div className='heig5 img-b-three img-posit'>
-                    <p className='p-title'>亲自酒店榜</p>
-                    <p className='p-content'>带娃快乐入眠</p>
+                    <div className='img-back-shad img-br3 heig5'>
+                      <p className='p-title'>亲自酒店榜</p>
+                      <p className='p-content'>带娃快乐入眠</p>
+                    </div>
                   </div>
                 </Link>
               </li>

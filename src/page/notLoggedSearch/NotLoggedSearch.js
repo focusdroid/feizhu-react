@@ -3,6 +3,10 @@ import './notLoggedSearch.scss'
 import '../../style/css/base.css'
 
 export default class NotLoggedSearch extends Component{
+  constructor (props) {
+    super(props);
+    this.handleGoBack = this.handleGoBack.bind(this)
+  }
   render(){
     return (
       <Fragment>
@@ -11,7 +15,7 @@ export default class NotLoggedSearch extends Component{
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAaVBMVEUAAABmZmZoaGhmZmZmZmZmZmZmZmZnZ2dnZ2dmZmZnZ2dnZ2dpaWloaGhpaWlmZmZmZmZmZmZmZmZmZmZnZ2dnZ2doaGhmZmZ4eHhnZ2dmZmZmZmZnZ2dnZ2dmZmZnZ2dmZmZmZmZmZmYqTRcvAAAAInRSTlMA+k3li/fy38xvUi8nGRHTxMGgnZN0XQoIermsq4ZpQzweK5j6zgAAAPpJREFUeAGtku0OoyAQAFkBUeuHtdba73be/yEv6YYcSnK/bn4NmSyyiSbynisrtpqai8lZApHyvO5iNwJynNzp5oFw2NSDBfvqf742A5RFOmvhlHzxKvhkfoSrSWkE28fDAiezpQYXPWCzXUZ8p/aGl9nzgVptRnqTETiqVCo7ZryKZTI5Z9A7BWdyFmh1WtfKV9OnV9xMjkNUJvya54FKpYEmqy081S4lQ5YfSPt3h+uuFnCPvgZke/2hpPymJ6nT2RJcevYwfuKrHgBS7P4mwnxeajcApZNt750nIvevKXbddPXRA1I9fxtp39K3nUreI/+zB/OvHtwfX4kVEsXkRdIAAAAASUVORK5CYII=" alt=""/>
             <input type="text" placeholder='婺源'/>
           </div>
-          <div className='search-close'>
+          <div className='search-close' onClick={this.handleGoBack}>
             <p>取消</p>
           </div>
         </div>
@@ -62,5 +66,9 @@ export default class NotLoggedSearch extends Component{
         {/*搜索结果显示页面或者默认数据结果显示页面end*/}
       </Fragment>
     );
+  }
+  handleGoBack () {
+    this.props.history.push({pathname: "/"})
+    console.log(this)
   }
 }
