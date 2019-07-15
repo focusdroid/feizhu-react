@@ -6,6 +6,7 @@ import Tourist from '../../view/mianBranch/tourist/Tourist' // 当地旅游季�
 import TravelTheme from '../../view/mianBranch/travelTheme/TravelTheme' // 当地旅游季，在view/mainBranch/tourist/Tourist.js中
 import GuessLove from '../../view/mianBranch/guessLove/GuessLove' // 当地旅游季，在view/mainBranch/tourist/Tourist.js中
 import { connect } from 'react-redux'
+import { getAPI } from '../../api/index'
 
 class Content extends Component{
   render(){
@@ -177,6 +178,11 @@ class Content extends Component{
       <p style={{marginBottom: 40,marginTop: 30, textAlign: 'center'}}>我也是有底线的</p>
       </Fragment>
     );
+  }
+  componentDidMount() {
+    getAPI().then((res) => {
+      console.log(res)
+    })
   }
 }
 
