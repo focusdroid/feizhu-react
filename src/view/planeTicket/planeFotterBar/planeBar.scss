@@ -1,0 +1,35 @@
+@import '../../../style/scss/common.scss';
+.foot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  .foot-ul {
+    display: flex;
+    li {
+      width: calc(100% / 3);
+      text-align: center;
+      background-color: #ffffff;
+      height: $heig2;
+      line-height: $heig2;
+      a {
+        display: flex;
+        justify-content: center;
+        height: $heig2;
+        line-height: $heig2;
+        color: #2a2727;
+        .foot-box {
+          margin-top: 0.2rem;
+          img {
+            display: flex;
+            margin: 0 auto;
+            width: 0.8rem;
+          }
+          p {
+            line-height: 1rem;
+            font-size: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
