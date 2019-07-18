@@ -14,8 +14,9 @@ import Carousels from './plugin/carousel/Carousel' // 轮播图案例
 
 /*机票start*/
 import PlaneTicket from './view/planeTicket/PlaneTicket' // 机票部门的容器
-import PlaneTicketFirst from './view/planeTicket/planeTicketFirst/PlaneTicketFirst'
-import Test from './view/planeTicket/planeTicketFirst/Test'
+import ContentFeiZhu from './view/planeTicket/concatfeizhu/ContentFeiZhu' // 机票/联系飞猪
+import Collection from './view/planeTicket/collection/Collection' // 机票/ 收藏
+import MyOrder from './view/planeTicket/myorder/MyOrder' // 机票/ 收藏
 /*机票end*/
 
 export default class Routers extends Component{
@@ -28,7 +29,9 @@ export default class Routers extends Component{
             <Route path='/notLoggedSearch' component={NotLoggedSearch}></Route>
             <Route path='/planeticket' component={PlaneTicket} children={() =>
               <PlaneTicket>
-                <Route path='/planeticket/test' component={Test}></Route>
+                <Route path='/planeticket/contentfeizhu' component={ContentFeiZhu}></Route>
+                <Route path='/planeticket/collection' component={Collection}></Route>
+                <Route path='/planeticket/myorder' component={MyOrder}></Route>
               </PlaneTicket>
             }></Route>
             <Route render={() =>

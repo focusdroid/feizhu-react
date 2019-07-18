@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2de30691-e6e7-4d88-8fd3-647066646504" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/View.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/planeTicket/PlaneTicket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/planeTicket/planeFotterBar/PlaneFotterBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/planeTicket/planeFotterBar/planeBar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/planeTicket/planeTicketFirst/PlaneTicketFirst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/planeTicket/planeTicketFirst/Test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/planeTicket/collection/Collection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/planeTicket/myorder/MyOrder.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footerBar/FooterBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/footerBar/FooterBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footerBar/footerBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/footerBar/footerBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/content/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/content/Content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/scss/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/planeTicket/planeFotterBar/PlaneFotterBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/planeTicket/planeFotterBar/PlaneFotterBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/planeTicket/planeTicketFirst/PlaneTicketFirst.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/planeTicket/concatfeizhu/ContentFeiZhu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/planeTicket/planeTicketFirst/Test.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,12 +52,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="46">
+              <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#748#831#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/planeTicket/myorder/MyOrder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -71,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/planeTicket/planeFotterBar/PlaneFotterBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="375">
+              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -81,10 +83,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/planeTicket/planeTicketFirst/Test.js">
+        <entry file="file://$PROJECT_DIR$/src/view/planeTicket/collection/Collection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="50">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/planeTicket/concatfeizhu/ContentFeiZhu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -119,15 +130,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/style/css/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -135,8 +137,8 @@
       <list>
         <option value="Less File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -213,8 +215,12 @@
         <option value="$PROJECT_DIR$/src/view/planeTicket/planeFotterBar/planeBar.scss" />
         <option value="$PROJECT_DIR$/src/view/planeTicket/planeTicketFirst/Test.js" />
         <option value="$PROJECT_DIR$/src/view/planeTicket/PlaneTicket.js" />
-        <option value="$PROJECT_DIR$/src/view/planeTicket/planeFotterBar/PlaneFotterBar.js" />
         <option value="$PROJECT_DIR$/src/components/Admin.js" />
+        <option value="$PROJECT_DIR$/src/view/planeTicket/concatfeizhu/PlaneTicketFirst.js" />
+        <option value="$PROJECT_DIR$/src/view/planeTicket/collection/Collection.js" />
+        <option value="$PROJECT_DIR$/src/view/planeTicket/MyOrder/MyOrder.js" />
+        <option value="$PROJECT_DIR$/src/view/planeTicket/planeFotterBar/PlaneFotterBar.js" />
+        <option value="$PROJECT_DIR$/src/view/planeTicket/myorder/MyOrder.js" />
         <option value="$PROJECT_DIR$/src/Router.js" />
       </list>
     </option>
@@ -341,15 +347,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="planeTicket" type="462c0819:PsiDirectoryNode" />
-              <item name="planeFotterBar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feizhu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feizhu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="planeTicket" type="462c0819:PsiDirectoryNode" />
-              <item name="planeTicketFirst" type="462c0819:PsiDirectoryNode" />
+              <item name="myorder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,7 +404,7 @@
       <workItem from="1562983197232" duration="3611000" />
       <workItem from="1563159630907" duration="1693000" />
       <workItem from="1563228539807" duration="8075000" />
-      <workItem from="1563364221732" duration="12524000" />
+      <workItem from="1563364221732" duration="13688000" />
     </task>
     <task id="LOCAL-00001" summary="修改小部分样式问题">
       <created>1562314142675</created>
@@ -450,11 +448,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563160676826</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成机票的二级页面地步导航栏">
+      <created>1563427454415</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563427454415</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92709000" />
+    <option name="totallyTimeSpent" value="93873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -465,7 +470,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5013405" side_tool="true" weight="0.14075068" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -510,14 +515,10 @@
     <MESSAGE value="旅游主题开发中..." />
     <MESSAGE value="飞猪首页开发完毕" />
     <MESSAGE value="添加请求模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加请求模块" />
+    <MESSAGE value="完成机票的二级页面地步导航栏" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成机票的二级页面地步导航栏" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1809" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/pnpTs.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -827,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/planeTicket/planeTicketFirst/PlaneTicketFirst.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/planeTicket/planeFotterBar/planeBar.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -854,23 +848,6 @@
           <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/planeTicket/planeTicketFirst/Test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/planeTicket/planeFotterBar/PlaneFotterBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -896,13 +873,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/planeTicket/concatfeizhu/ContentFeiZhu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/planeTicket/concatfeizhu/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/planeTicket/collection/Collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/planeTicket/planeFotterBar/PlaneFotterBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/planeTicket/myorder/MyOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="46">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#748#831#0" expanded="true" />
           </folding>
         </state>
       </provider>

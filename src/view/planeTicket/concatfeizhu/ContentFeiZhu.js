@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react'
 
-export default class PlaneTicketFirst extends Component{
+export default class ContentFeiZhu extends Component{
   render () {
     return(<Fragment>
-      <h1>机票页面</h1>
+      <h1>联系飞猪</h1>
     </Fragment>);
   }
 }
