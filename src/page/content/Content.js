@@ -18,19 +18,19 @@ class Content extends Component{
           <div>
             <ul className='disflex content-ul'>
               <li>
-                <Link to='/planeticket'>
+                <Link to='/planeticket/contentfeizhu'>
                   <img src="//gw.alicdn.com/tfs/TB1JCcHCqmWBuNjy1XaXXXCbXXa-210-126.png_110x10000.jpg_.webp" alt=""/>
                   <p>机票</p>
                 </Link>
               </li>
               <li>
-                <Link to='/planeticket'>
+                <Link to='/hotel/hotelcollection'>
                   <img src="//gw.alicdn.com/tfs/TB1s51ECuOSBuNjy0FdXXbDnVXa-210-126.png_110x10000.jpg_.webp" alt=""/>
                   <p>酒店</p>
                 </Link>
               </li>
               <li>
-                <Link to='/'>
+                <Link to='/traintickets'>
                   <img src="//gw.alicdn.com/tfs/TB1BNE_wrZnBKNjSZFrXXaRLFXa-210-126.png_110x10000.jpg_.webp" alt=""/>
                   <p>火车票</p>
                 </Link>

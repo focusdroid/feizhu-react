@@ -15,9 +15,18 @@ import Carousels from './plugin/carousel/Carousel' // 轮播图案例
 /*机票start*/
 import PlaneTicket from './view/planeTicket/PlaneTicket' // 机票部门的容器
 import ContentFeiZhu from './view/planeTicket/concatfeizhu/ContentFeiZhu' // 机票/联系飞猪
-import Collection from './view/planeTicket/collection/Collection' // 机票/ 收藏
-import MyOrder from './view/planeTicket/myorder/MyOrder' // 机票/ 收藏
+import Collection from './view/planeTicket/collection/Collection' // 机票/ 我的收藏
+import MyOrder from './view/planeTicket/myorder/MyOrder' // 机票/ 我的订单
 /*机票end*/
+/*酒店start*/
+import Hotel from './view/hotel/Hotel'
+import HotelCollection from './view/hotel/hotelCollection/HotelCollection'
+import HotelOrder from './view/hotel/hotelOrder/HotelOrder'
+import HotelTravel from './view/hotel/hotelTravel/HotelTravel'
+/*酒店end*/
+/*火车票start*/
+import TrainTickets from './view/train/TrainTickets'
+/*火车票end*/
 
 export default class Routers extends Component{
   render() {
@@ -33,6 +42,18 @@ export default class Routers extends Component{
                 <Route path='/planeticket/collection' component={Collection}></Route>
                 <Route path='/planeticket/myorder' component={MyOrder}></Route>
               </PlaneTicket>
+            }></Route>
+            <Route path='/hotel' component={Hotel} children={() =>
+              <Hotel>
+                <Route path='/hotel/hotelcollection' component={HotelCollection}></Route>
+                <Route path='/hotel/hotelorder' component={HotelOrder}></Route>
+                <Route path='/hotel/hoteltravel' component={HotelTravel}></Route>
+              </Hotel>
+            }></Route>
+            <Route path='/traintickets' component={TrainTickets} children={() =>
+              <TrainTickets>
+
+              </TrainTickets>
             }></Route>
             <Route render={() =>
               <Admin>
