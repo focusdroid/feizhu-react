@@ -50,7 +50,7 @@ export default class Routers extends Component{
                 <Route path='/hotel/hoteltravel' component={HotelTravel}></Route>
               </Hotel>
             }></Route>
-            <Route path='/traintickets' component={TrainTickets} children={() =>
+              <Route path='/traintickets' component={TrainTickets} children={() =>
               <TrainTickets>
 
               </TrainTickets>
