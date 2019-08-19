@@ -28,12 +28,16 @@ import HotelTravel from './view/hotel/hotelTravel/HotelTravel'
 import TrainTickets from './view/train/TrainTickets'
 /*火车票end*/
 
+/*出境游 境内游 周边游 ...全部start*/
+import Outbound from './view/play/outbound/Outbound' // 出境游
+/*出境游 境内游 周边游 ...全部end*/
 export default class Routers extends Component{
   render() {
     return (
       <Router>
         <App>
           <Switch>
+            <Route path='/outbound' component={Outbound}></Route>
             <Route path='/carousel' component={Carousels}></Route>
             <Route path='/notLoggedSearch' component={NotLoggedSearch}></Route>
             <Route path='/planeticket' component={PlaneTicket} children={() =>

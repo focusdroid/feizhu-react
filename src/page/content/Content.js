@@ -7,6 +7,7 @@ import TravelTheme from '../../view/mianBranch/travelTheme/TravelTheme' // 当�
 import GuessLove from '../../view/mianBranch/guessLove/GuessLove' // 当地旅游季，在view/mainBranch/tourist/Tourist.js中
 import { connect } from 'react-redux'
 import { getAPI } from '../../api/index'
+import Outbound from "../../view/play/outbound/Outbound";
 
 class Content extends Component{
   render(){
@@ -55,7 +56,7 @@ class Content extends Component{
             <div className='travel-parent-ul'>
               <ul className='travel-ul'>
                 <li>
-                  <Link to='/'>
+                  <Link to='/outbound'>
                     <p>出境游</p>
                     <p>走遍全球</p>
                   </Link>
