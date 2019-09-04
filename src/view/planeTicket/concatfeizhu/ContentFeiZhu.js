@@ -1,9 +1,14 @@
 import React, { Component, Fragment } from 'react'
+import './concatfeizhu.scss'
+import GoBack from '../goback/GoBack'
 
 export default class ContentFeiZhu extends Component{
   render () {
     return(<Fragment>
-      <h1>联系飞猪</h1>
+      <GoBack/>
+      <div className='concat-backimg'>
+
+      </div>
     </Fragment>);
   }
 }
