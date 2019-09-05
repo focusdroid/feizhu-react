@@ -6,6 +6,21 @@ import { Link } from 'react-router-dom'
 import Carouse from '../../plugin/carousel/Carousel'
 
 export default class NotLogginHeader extends Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      imgHeight: 110,
+      photolist: [
+        'http://gw.alicdn.com/tfs/TB1zGnPeLWG3KVjSZFPXXXaiXXa-1125-352.jpg_790x10000Q75.jpg_.webp',
+        'https://gw.alicdn.com/tfs/TB1NnWqeL1G3KVjSZFkXXaK4XXa-1125-352.jpg_790x10000Q75.jpg_.webp',
+        'http://gw.alicdn.com/tfs/TB17QUEeRKw3KVjSZFOXXarDVXa-1125-352.jpg_790x10000Q75.jpg_.webp',
+        'http://gw.alicdn.com/tfs/TB1K3Sbe8WD3KVjSZFsXXcqkpXa-1125-352.jpg_790x10000Q75.jpg_.webp',
+        'http://gw.alicdn.com/tfs/TB1j0CLeGSs3KVjSZPiXXcsiVXa-1125-352.jpg_790x10000Q75.jpg_.webp',
+        'http://gw.alicdn.com/tfs/TB1IApAe.GF3KVjSZFmXXbqPXXa-1125-352.jpg_790x10000Q75.jpg_.webp',
+        'http://gw.alicdn.com/tfs/TB11jUbeL1H3KVjSZFBXXbSMXXa-1125-352.jpg_790x10000Q75.jpg_.webp'
+      ]
+    }
+  }
   render(){
     return(
       <header className='feizhu-home'>
@@ -38,7 +53,7 @@ export default class NotLogginHeader extends Component{
         </div>
         {/*未登录的热搜start*/}
         <div className='mt10'>
-          <Carouse/>
+          <Carouse photolist={this.state.photolist} imgHeight={this.state.imgHeight}/>
         </div>
         {/*  未登录的搜索框end*/}
       </header>

@@ -1,0 +1,42 @@
+.route-select {
+  margin-top: calc(1vmin);
+  .tickselect {
+    width: 94%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #ccc;
+    .tickselect-ul {
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+      width:100%;
+      display: flex;
+      text-align: center;
+      height: calc(10vmin);
+      line-height: calc(10vmin);
+      li {
+        width: calc(100% / 3);
+        text-align: center;
+        font-size: calc(3.5vmin + 4px);
+        position: relative;
+        transform-style: preserve-3d;
+        perspective: 2000px;
+      }
+      .line {
+        display: inline-block;
+        width: 100%;
+        height: calc(10vmin);
+        background-color: #fff;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: absolute;
+        left:0;
+        transition: all 0.5s;
+      }
+      .active {
+        transform: translateX(calc(100% / 3));
+      }
+    }
+  }
+}

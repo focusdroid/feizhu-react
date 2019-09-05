@@ -2,11 +2,10 @@ import React, { Component, Fragment } from 'react';
 import { Icon } from 'antd-mobile'
 import './goback.scss'
 
+
 export default class GoBack extends Component{
   constructor (props) {
     super(props);
-    this.state = {
-    }
     this.hangleGoBack = this.hangleGoBack.bind(this)
   }
   render(){

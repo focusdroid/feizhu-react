@@ -10,5 +10,6 @@
     > 5. 搜索页面，page/notLoggedSearch/NotLoggedSearch.js 未登录和登录共用
     > 6. 机票、酒店、火车票、汽车票、门票都在view/ticketing
         > 6.1 机票 view/planeTicket/concatFeiZhu.js
+        > 6.2 机票中的单程、往返、跨境多程抽离成组件进行编写（）
     > 7. 出境游、境内游、周边游都在view/play
     
